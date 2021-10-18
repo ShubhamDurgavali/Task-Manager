@@ -10,10 +10,10 @@ const generateNewData = (taskData) =>`
 <button type="button" class="btn btn-outline-danger" id=${taskData.id} onclick="deleteCard.apply(this,arguments)"><i class="fas fa-trash-alt" id=${taskData.id}></i></button>
 </div>
 <div class="card-body">
-<img class="card-img-top" src=${taskData.imageUrl} alt="...">
+<img class="card-img-top w-full h-full" src=${taskData.imageUrl} alt="...">
  <h5 class="card-title mt-3 fw-bolder text-primary">${taskData.taskTitle}</h5>
  <p class="card-text">${taskData.taskDescription}</p>
- <a href=${taskData.imageUrl} class="btn btn-primary">${taskData.taskType}</a>
+ <a href="#" class="btn btn-primary">${taskData.taskType}</a>
 </div>
 </div>
 </div>
